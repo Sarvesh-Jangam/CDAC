@@ -1,0 +1,69 @@
+
+# =========================
+# Python virtual environments
+# =========================
+Cdacvenv/
+.venv/
+venv/
+env/
+
+# =========================
+# Python cache
+# =========================
+src/__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Model weights
+# =========================
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+# =========================
+# Input videos and datasets
+# =========================
+data/*
+!data/.gitkeep
+
+# =========================
+# Generated outputs
+# =========================
+outputs/*
+!outputs/.gitkeep
+
+# =========================
+# OCR generated files
+# =========================
+# ocr/*.csv
+# ocr/*.png
+# ocr/*.jpg
+
+# =========================
+# YOLO generated runs
+# =========================
+runs/
+src/runs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,12 @@
+Field	Description
+asset_id	Unique asset identifier
+asset_type	Excavator, roller, etc.
+latitude	Estimated location
+longitude	Estimated location
+avg_confidence	Average detection confidence
+first_seen	First observation
+last_seen	Last observation
+observation_count	Number of supporting frames
+video_id	Source video
+image_path	Representative image
+location_method	Camera GPS / estimated offset
